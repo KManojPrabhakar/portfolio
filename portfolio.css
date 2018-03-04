@@ -1,0 +1,45 @@
+body {
+	font-family: sans-serif;
+    overflow-x: hidden;
+}
+nav {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 8px;
+    min-height: 50px;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+header {
+
+	background-color: #daa520;
+    color: #fff;
+    padding: 8px;
+    min-height: 50px;
+    text-align: center;
+}
+footer {
+	text-align: center;
+    background-color: #252A30;
+    color: #fff;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
